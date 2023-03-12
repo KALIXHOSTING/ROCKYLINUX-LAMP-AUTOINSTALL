@@ -4,7 +4,7 @@
 #Author		:  MAVEN
 #Instagram	:  https://www.kalixhosting.com
 #Version	:  1.0.0
-#Date		:  02/08/2023
+#Date		:  03/12/2023
 #OS		:  ROCKYLINUX
 ###########################################################
 
@@ -35,7 +35,7 @@ rpm -Uvh http://repo.mysql.com/mysql-community-release-el7-7.noarch.rpm
 rpm -Uvh https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
 yum install -y https://rpms.remirepo.net/enterprise/remi-release-8.rpm
 yum -y install yum-utils
-dnf module enable php:7.4
+dnf module enable php:7.4 -y
 
 
 #Install MariaDB
@@ -130,4 +130,4 @@ wget https://git.io/vpn -O openvpn-install.sh && bash openvpn-install.sh
 
 
 
-echo "######## KALIXHOSTING AUTOINSTALL | FINISH #########"
+echo "######## KALIXHOSTING AUTOINSTALL FOR ROCKYLINUX | FINISH #########"
