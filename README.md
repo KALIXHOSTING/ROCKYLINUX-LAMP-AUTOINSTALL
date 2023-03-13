@@ -1,5 +1,4 @@
-# ROCKYLINUX-LAMP-AUTOINSTALL
-LAMP AUTO INSTALL SCRIPT FOR ROCKY LINUX
+LAMP AUTO INSTALL SCRIPT FOR CENTOS 7 
 
 Package Contents
 
@@ -20,7 +19,7 @@ OPENVPN
 How to use
 Login as root and enter to start install
 Do the Following Command:
-wget https://raw.githubusercontent.com/KALIXHOSTING/ROCKYLINUX-LAMP-AUTOINSTALL/main/install.sh
+wget https://raw.githubusercontent.com/KALIXHOSTING/CENTOS-7-LAMP-AUTOINSTALL-/main/install.sh
 # chmod 777 ./install.sh 
 then run 
 
@@ -63,13 +62,11 @@ Then
 
 # 
 # <VirtualHost *:80>
-<VirtualHost *:80>
     ServerName yourDomainName.com
     DocumentRoot /var/www/html
     ServerAlias www.yourDomainName.com
     ErrorLog /var/www/error.log
     CustomLog /var/www/requests.log combined
-     </VirtualHost> 
 # </VirtualHost>
 
 Now Restart Apache
