@@ -11,7 +11,7 @@
 echo "Auto Install LAMP ROCKYLINUX"
 echo "###########################"
 
-#Update Centos
+#Update ROCKYLINUX
 sudo setenforce 0
 yum -y update
 yum -y install wget
