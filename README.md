@@ -1,5 +1,5 @@
 
-![Logo](https://kalixhosting.com/img/kalixhostinglogo.png)
+![Logo](https://kalixhosting.com/img/kalixhostinggitlogo.png)
 
 
 # ROCKYLINUX LAMP AUTO INSTALL
