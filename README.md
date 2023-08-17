@@ -41,7 +41,7 @@ ROCKYLINUX LAMP AUTO INSTALLER SCRIPT
 Install Script
 
 ```bash
- wget -4 http://scripts.kalixhosting.com/rockylinux/lampstacks -O install.sh && bash install.sh
+ wget -4 http://scripts.kalixhosting.com/centos/rockylinux/lampfull -O install.sh && bash install.sh
 ```
 ## ENABLE MOD REWRITE
 
