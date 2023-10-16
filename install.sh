@@ -108,7 +108,7 @@ systemctl restart httpd.service
 
 
 #CONFIG CERTBOT
-sudo yum -y install certbot python2-certbot-apache mod_ssl
+sudo dnf install certbot python3-certbot-apache mod_ssl -y
 
 yum -y install perl-CGI perl-libwww-perl perl-DBI perl-DBD-MySQL perl-GD perl-Cache-Memcached perl-Digest-SHA perl-LWP-Protocol-https
 #RESTART APACHE
